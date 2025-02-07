@@ -1,0 +1,14 @@
+from .teacher_login import teacher_login
+from .teacher_registeration import teacher_registeration
+from .teacher_dashboard import teacher_dashboard
+from .teacher_reset_password import teacher_reset_password
+from .teacher_forgot_password import teacher_forgot_password
+from .teacher_reset_password_code import teacher_reset_password_code
+from .teacher_create_class import teacher_create_class
+from .teacher_manage_class import teacher_manage_class
+from .teacher_settings import teacher_settings
+from .teacher_logout import teacher_logout
+from .teacher_create_course import teacher_create_course
+from .teacher_manage_courses import teacher_manage_courses, edit_course_details, delete_weekly_content, edit_weekly_content, delete_question
+from .teacher_view_course_grades import teacher_view_course_grades, teacher_view_grade
+from .teacher_edit_class import teacher_edit_class
